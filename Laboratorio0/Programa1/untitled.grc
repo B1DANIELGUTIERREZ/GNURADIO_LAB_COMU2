@@ -52,14 +52,14 @@ blocks:
     alias: ''
     amp: '1'
     comment: ''
-    freq: '1000'
+    freq: '2000'
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
     phase: '0'
     samp_rate: samp_rate
     type: complex
-    waveform: analog.GR_COS_WAVE
+    waveform: analog.GR_SAW_WAVE
   states:
     bus_sink: false
     bus_source: false

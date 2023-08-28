@@ -50,16 +50,16 @@ blocks:
   parameters:
     affinity: ''
     alias: ''
-    amp: '1'
+    amp: '2'
     comment: ''
-    freq: '1000'
+    freq: '1500'
     maxoutbuf: '0'
     minoutbuf: '0'
     offset: '0'
     phase: '0'
     samp_rate: samp_rate
     type: complex
-    waveform: analog.GR_COS_WAVE
+    waveform: analog.GR_SQR_WAVE
   states:
     bus_sink: false
     bus_source: false
